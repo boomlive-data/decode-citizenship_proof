@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Documents in circulation</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B2A4A;--red:#A8342A;--blue:#4A6FA5;--paper:#F7F4ED;--rule:#CFC7B5;--muted:#6B6459;--body:#2A2622}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--body);font-family:'Archivo',system-ui,sans-serif;padding:18px 20px 14px}
+.wrap{max-width:700px;margin:0 auto}
+h1{font-family:'Instrument Serif',Georgia,serif;font-size:23px;font-weight:400;color:var(--ink);line-height:1.15}
+.sub{font-size:12.5px;color:var(--muted);margin-top:5px;line-height:1.45;max-width:64ch}
+.rows{margin-top:15px;border-top:1.5px solid var(--ink)}
+.row{display:grid;grid-template-columns:96px 1fr 86px;gap:11px;align-items:center;padding:9px 0;border-bottom:1px solid var(--rule)}
+.nm{font-size:13px;font-weight:500}
+.nm em{display:block;font-style:normal;font-size:10.5px;color:var(--muted);font-weight:400;margin-top:1px;line-height:1.35}
+.track{height:19px;position:relative}
+.fill{height:100%;background:var(--blue);border-radius:1px}
+.val{font-family:'Instrument Serif',Georgia,serif;font-size:18px;text-align:right;color:var(--ink);white-space:nowrap}
+.val span{font-family:'Archivo',sans-serif;font-size:10.5px;color:var(--muted);margin-left:3px}
+.row.unv .fill{background:repeating-linear-gradient(135deg,rgba(74,111,165,.45),rgba(74,111,165,.45) 4px,transparent 4px,transparent 8px);border:1px dashed var(--blue)}
+.row.unv .val{color:var(--muted)}
+.punch{margin-top:14px;padding:12px 14px;background:var(--ink);color:var(--paper);border-radius:2px;font-size:13px;line-height:1.5}
+.punch b{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:15px}
+footer{margin-top:12px;padding-top:9px;border-top:1px solid var(--rule);font-size:10.5px;color:var(--muted);line-height:1.5}
+footer a{color:var(--ink);text-decoration:underline}
+@media(max-width:520px){body{padding:14px}h1{font-size:19px}.row{grid-template-columns:78px 1fr 72px;gap:8px}.nm{font-size:12px}.val{font-size:16px}}
+</style>
+</head>
+<body><div class="wrap">
+<h1>India has issued documents at scale. None of them proves citizenship.</h1>
+<p class="sub">Identity documents in circulation, in crore. Bars are drawn to scale against Aadhaar.</p>
+
+<div class="rows">
+
+<div class="row">
+<div class="nm">Aadhaar<em>Identity and residence</em></div>
+<div class="track"><div class="fill" style="width:100%"></div></div>
+<div class="val">142.47<span>cr</span></div>
+</div>
+
+<div class="row">
+<div class="nm">Electoral roll<em>Enrolment, not final proof</em></div>
+<div class="track"><div class="fill" style="width:68%"></div></div>
+<div class="val">96.88<span>cr</span></div>
+</div>
+
+<div class="row">
+<div class="nm">PAN<em>Tax identifier</em></div>
+<div class="track"><div class="fill" style="width:32.4%"></div></div>
+<div class="val">46.14<span>cr</span></div>
+</div>
+
+<div class="row unv">
+<div class="nm">PAN, reported<em>Press figure, unverified</em></div>
+<div class="track"><div class="fill" style="width:56.1%"></div></div>
+<div class="val">~80<span>cr</span></div>
+</div>
+
+<div class="row">
+<div class="nm">Passports<em>Travel document</em></div>
+<div class="track"><div class="fill" style="width:6.5%"></div></div>
+<div class="val">9.26<span>cr</span></div>
+</div>
+
+</div>
+
+<div class="punch"><b>The Citizenship Act, 1955 names no single document as proof of citizenship.</b> Aadhaar is available to any resident regardless of nationality. Foreign nationals earning Indian income hold PAN cards. The Ministry of External Affairs describes passports as travel documents issued on the presumption of citizenship, not as proof of it.</div>
+
+<footer>Sources: Aadhaar from the <a href="https://uidai.gov.in/images/AadhaarSaturationReport.pdf" target="_blank" rel="noopener">UIDAI Aadhaar Saturation Report</a>, 31 May 2026. Electoral roll from the <a href="https://www.eci.gov.in/eci-publication" target="_blank" rel="noopener">Election Commission of India</a>, Special Summary Revision 2024. PAN from Lok Sabha Unstarred Question 4695, answered 22 July 2019, Ministry of Finance, searchable via <a href="https://sansad.in/ls/questions/questions" target="_blank" rel="noopener">sansad.in</a>; the higher figure circulating in press reports since 2024 has no published state-wise government breakdown and is shown here unverified. Passports from Rajya Sabha Unstarred Question 705, answered 8 February 2024, Ministry of External Affairs, also via <a href="https://sansad.in/ls/questions/questions" target="_blank" rel="noopener">sansad.in</a>. Document counts are not directly comparable: a person may hold several, and totals count documents issued rather than individuals. &nbsp;&nbsp;Decode / BOOM</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.contentWindow.min.js"></script>
+</div></body></html>
